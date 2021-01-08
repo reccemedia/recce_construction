@@ -143,28 +143,28 @@ body .card .year span a{
   text-decoration: none !important;
 }
 
-#linkedin{
+#media #linkedin i{
   color: #0e76a8;
   margin-right: 30px;
 }
-#linkedin:hover{
+#media #linkedin i:hover {
   color: #0e76a8;
   font-size: 40px;
 }
 
-#facebook{
+#media #facebook i{
   color: #3b5998;
   margin-right: 30px;
 }
-#facebook:hover{
+ #media #facebook i:hover{
   color: #3b5998;
   font-size: 40px;
 }
 
-#insta{
+#media #insta i{
   color:#8a3ab9;
 }
-#insta:hover{
+#media #insta i:hover{
   color: #8a3ab9;
   font-size: 40px;
 }
