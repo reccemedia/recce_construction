@@ -1,0 +1,125 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  html, body {
+    width: 100%;
+    height: 100vh;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    font-size: 40px;
+    color: white;
+  }
+  .one {background-color: blue;}
+  .two {background-color: red;}
+  .three {background-color: limegreen;}
+  .four {background-color: orange;}
+  .five {background-color: yellow;}
+  .six {background-color: purple;}
+  .seven {background-color: violet;} */
+
+html, body {
+  height: 100%;
+  background-color: orange;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.hero-text {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  /* -webkit-text-stroke: 0.01em black; */
+  margin-bottom: 5px;
+}
+
+.hero-text span {
+  display: inline-block;
+} 
+
+body.delayed-entrance-sequence .hero-text span {
+  opacity: 0;
+}
+
+body:not(.delayed-entrance-sequence) .hero-text span:nth-child(1) {
+  animation: animate-letter 600ms cubic-bezier(0, 0, 0, 1) 0ms both;
+}
+body:not(.delayed-entrance-sequence) .hero-text span:nth-child(2) {
+  animation: animate-letter 600ms cubic-bezier(0, 0, 0, 1) 50ms both;
+}
+body:not(.delayed-entrance-sequence) .hero-text span:nth-child(3) {
+  animation: animate-letter 600ms cubic-bezier(0, 0, 0, 1) 100ms both;
+}
+body:not(.delayed-entrance-sequence) .hero-text span:nth-child(4) {
+  animation: animate-letter 600ms cubic-bezier(0, 0, 0, 1) 150ms both;
+}
+body:not(.delayed-entrance-sequence) .hero-text span:nth-child(5) {
+  animation: animate-letter 600ms cubic-bezier(0, 0, 0, 1) 200ms both;
+}
+body:not(.delayed-entrance-sequence) .hero-text span:nth-child(6) {
+  animation: animate-letter 600ms cubic-bezier(0, 0, 0, 1) 250ms both;
+}
+body:not(.delayed-entrance-sequence) .hero-text span:nth-child(7) {
+  animation: animate-letter 600ms cubic-bezier(0, 0, 0, 1) 300ms both;
+}
+body:not(.delayed-entrance-sequence) .hero-text span:nth-child(8) {
+  animation: animate-letter 600ms cubic-bezier(0, 0, 0, 1) 350ms both;
+}
+body:not(.delayed-entrance-sequence) .hero-text span:nth-child(9) {
+  animation: animate-letter 600ms cubic-bezier(0, 0, 0, 1) 400ms both;
+}
+body:not(.delayed-entrance-sequence) .hero-text span:nth-child(10) {
+  animation: animate-letter 600ms cubic-bezier(0, 0, 0, 1) 450ms both;
+}
+body:not(.delayed-entrance-sequence) .hero-text span:nth-child(11) {
+  animation: animate-letter 600ms cubic-bezier(0, 0, 0, 1) 500ms both;
+}
+
+@keyframes animate-letter {
+  0% {
+    opacity: 0;
+  }
+  0%, 0.1% {
+    transform: translateX(0.3em);
+  }
+  0.1%, 100% {
+    opacity: 1;
+  }
+}
+.desc-text {
+  font-size: 50px;
+  font-weight: 300;
+  font-weight: bold;
+  color: #696969;
+}
+.desc-text.rotating-text {
+  animation: rotateText 500ms cubic-bezier(0, 0, 0, 1);
+}
+.desc-text.invisible {
+  visibility: hidden;
+}
+
+@keyframes rotateText {
+  from {
+    transform: translateY(30%);
+  }
+}
+button#replay {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
