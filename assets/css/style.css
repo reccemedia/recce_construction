@@ -383,7 +383,6 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 10%;
 }
 
 .header-area .main-nav .nav {
@@ -562,10 +561,6 @@ header
   .header-area .logo {
     margin-top: 27px !important;
     margin-left: 30px;
-  }
-
-  .header-area .logo img{
-    margin-left: -20px;
   }
   .header-area .menu-trigger {
     display: block !important;
