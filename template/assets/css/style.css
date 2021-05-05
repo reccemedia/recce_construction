@@ -320,10 +320,13 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+  background-image: url('/assets/img/heroBg.png');
   width: 100%;
+  height: auto;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, #2a2c39 0%, #33364a 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 0;
 }
 
@@ -611,6 +614,7 @@ section {
 .portfolio .portfolio-item .portfolio-img img {
   transition: all 0.8s ease-in-out;
 }
+
 
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
