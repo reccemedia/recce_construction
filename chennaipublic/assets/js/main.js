@@ -1,9 +1,3 @@
-/**
-* Template Name: Mentor - v2.0.0
-* Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 !(function($) {
   "use strict";
 
@@ -15,6 +9,20 @@
       });
     }
   });
+
+  //client
+  $(".clients-carousel").owlCarousel({
+    autoplay: true,
+    autoplayTimeout: 8000,
+    dots: true,
+    loop: true,
+    items: 1,
+    nav: true,
+    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+  });
+  
+  $( ".owl-prev").html('<div style="margin-left: -200px;"><i class="fa fa-chevron-left"></i></div>');
+  $( ".owl-next").html('<div style="margin-right: -200px;"><i class="fa fa-chevron-right"></i></div>');
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
