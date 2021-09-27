@@ -247,17 +247,17 @@ header .navbar {
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
-	color: #a4c639!important;
+	color: #CF172A!important;
 }
 .background-header .navbar-nav a.nav-link {
-	color: #1e1e1e!important;
+	color: #2D3063!important;
 }
 .background-header .navbar-nav .nav-link:hover,
 .background-header .navbar-nav .active>.nav-link,
 .background-header .navbar-nav .nav-link.active,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #a4c639!important;
+	color: #CF172A!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -297,7 +297,7 @@ header .navbar {
 	font-size: 15px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
-	color: #fff;
+	color: #2D3063;
 	transition: all 0.5s;
 	margin-top: 5px;
 }
@@ -312,8 +312,9 @@ header .navbar {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #a4c639;
-	border-bottom: 3px solid #a4c639;
+	color: #CF172A;
+	border-bottom: 3px solid #CF172A;
+	font-weight: bold;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -1451,7 +1452,7 @@ footer .contact-form button.filled-button:hover {
 	.navbar .navbar-nav .nav-link.active,
 	.navbar .navbar-nav .nav-link.show,
 	.navbar .navbar-nav .show>.nav-link {
-		color: #a4c639!important;
+		color: #CF172A!important;
 		border-bottom: none!important;
 	}
 	.navbar-brand img{
@@ -1507,7 +1508,8 @@ h5 a:hover { color: inherit; }
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #a4c639;
+  background: #2D3063;
+  color: white;
 }
 
 .timeline ul li div::before {
@@ -1526,7 +1528,7 @@ h5 a:hover { color: inherit; }
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #a4c639 transparent transparent;
+  border-color: transparent #2D3063 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -1536,7 +1538,7 @@ h5 a:hover { color: inherit; }
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #a4c639;
+  border-color: transparent transparent transparent #2D3063;
 }
 
 time {
@@ -1555,7 +1557,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #a4c639;
+  background: #CF172A;
 }
 
 .timeline ul li div {
@@ -1605,7 +1607,7 @@ time {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #a4c639 transparent transparent;
+    border-color: transparent #2D3063 transparent transparent;
   }
 }
 
