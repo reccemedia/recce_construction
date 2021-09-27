@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #a4c639;
+	background-color: #2D3063;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -37,8 +37,8 @@ a.filled-button {
 }
 
 a.filled-button:hover {
-	background-color: #fff;
-	color: #a4c639;
+	background-color: #CF172A;
+	color: #fff;
 }
 
 a.border-button {
@@ -86,7 +86,7 @@ a.border-button:hover {
 
 #preloader {
   overflow: hidden;
-  background: #a4c639;
+  background: #2D3063;
   left: 0;
   right: 0;
   top: 0;
@@ -756,11 +756,12 @@ ul.slick-dots {
 	font-size: 36px;
 	font-weight: 600;
 	margin-bottom: 35px;
+	color: #2D3063;
 }
 
 .more-info .right-content em {
 	font-style: normal;
-	color: #a4c639;
+	color: #CF172A;
 }
 
 .more-info .right-content p {
@@ -1169,10 +1170,11 @@ footer .contact-form button.filled-button:hover {
 }
 
 .application{
-	background: #a4c639;
+	background: #CF172A;
 	padding: 5px 10px;
 	margin-top: 2em;
 	margin-bottom: 1em;
+	color: white;
   }
 
   .list-1, .list-2, .list-3, .list-4{
@@ -1181,7 +1183,7 @@ footer .contact-form button.filled-button:hover {
   }
 
   .heas h4 {
-    color: #a4c639;
+    color: #2D3063;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -1217,7 +1219,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .team-item .down-content span {
-	color: #a4c639;
+	color: #CF172A;
 	font-weight: 600;
 	font-size: 14px;
 	display: block;
@@ -1320,7 +1322,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .contact-information .contact-item i {
-	color: #a4c639;
+	color: #2D3063;
 	font-size: 48px;
 	margin-bottom: 40px;
 }
@@ -1334,11 +1336,13 @@ footer .contact-form button.filled-button:hover {
 
 .contact-information .contact-item p {
 	margin-bottom: 20px;
+	color: #CF172A;
+	font-weight: bold;
 }
 
 .contact-information .contact-item a {
 	font-weight: 600;
-	color: #a4c639;
+	color: #CF172A;
 	font-size: 15px;
 }
 
