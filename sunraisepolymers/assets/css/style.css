@@ -1514,6 +1514,7 @@ h5 a:hover { color: inherit; }
   padding: 15px;
   background: #2D3063;
   color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .timeline ul li div::before {
