@@ -320,8 +320,8 @@ header .navbar {
 	background-image: none;
 }
 .navbar .navbar-toggler {
-	border-color: #fff;
-	background-color: #fff;	
+	/*border-color: #fff;*/
+	background-color: rgba(0, 0, 0, 0);	
 	height: 36px;
 	outline: none;
 	border-radius: 0px;
@@ -331,7 +331,7 @@ header .navbar {
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #a4c639;
+	color: #2D3063;
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
