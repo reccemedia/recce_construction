@@ -304,7 +304,7 @@ header .navbar {
 
 .dropdown-item.active, 
 .dropdown-item:active {
-	background-color: #a4c639;
+	background-color: #CF172A;
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -1305,7 +1305,7 @@ footer .contact-form button.filled-button:hover {
 
 .dropdown-item.active, 
 .dropdown-item:active {
-	background-color: #a4c639;
+	background-color: #CF172A;
 }
 
 /* Contact Information */
